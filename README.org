@@ -1,0 +1,26 @@
+* WebDB II Recitation
+
+  In this recitation we will practice our skills with database schema design and
+  writing a node/express application from scratch.
+
+** MVP
+   - Configure our application to connect to a database
+   - Write knex migration(s) to define the database schema for a table of books
+   - Write the post and get endpoints for the books resource.
+
+** Specifications
+   At least the following information is needed for each book
+   - Title
+   - Author
+   - Edition
+   - Publisher
+   - ISBN
+   - User Rating (may not be initially known)
+
+** Stretch
+   - Write some migrations
+   - Seed the database with a few books
+   - Add Put and Delete routes
+   - Write an orders table that keeps track of user orders that contains the
+     quantity, book id, and address
+
